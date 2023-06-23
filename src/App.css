@@ -163,13 +163,14 @@
 
 .newuser {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 2rem;
   align-items: center;
   margin: 2rem 0;
 }
 
 .usericon {
-  width: 50%;
+  width: 60%;
   padding: 10rem;
   display: flex;
   justify-content: center;
