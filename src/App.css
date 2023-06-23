@@ -165,17 +165,26 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 2rem 0;
 }
 
 .usericon {
   width: 50%;
+  padding: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+  border: 0.5px solid #ded9d9;
+  border-radius: 5px;
 }
 
 .new-user-section {
   width: 40%;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+  border: 0.5px solid #ded9d9;
+  border-radius: 5px;
+  padding: 0.2rem 2rem;
 }
 
 .nav-column {
