@@ -151,6 +151,14 @@
 
 .my-container {
   margin-left: 10%;
+  margin-top: 10%;
+}
+
+.userinfo {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+  padding: 0.8rem;
+  border: 0.5px solid #ded9d9;
+  border-radius: 5px;
 }
 
 .newuser {
@@ -197,4 +205,29 @@
 .email--,
 .user- > .email {
   min-width: 16rem;  
+}
+
+.quic-actions {
+  background-color: var(--background-color);
+  border: 1px solid #fdac15;
+  padding: 0.2rem;
+  border-radius: 5px;
+  color: #fdac15;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.top-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 16px;
+}
+
+.filters {
+  display: flex;
+  gap: 1rem;
 }

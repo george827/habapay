@@ -2,6 +2,11 @@ import React from "react";
 import NewUser from "./dashboard/NewUser";
 import PersonIcon from "../assets/undraw.png";
 import PersonEdit from "../assets/Vector.png";
+import pagination from "../assets/pagination.png";
+
+import sortbarsdrop from "../assets/sortbarsdrop.png";
+
+import { MdArrowDropDown } from "react-icons/md";
 import "../App.css";
 import Data from "./Data";
 const ManageUsers = () => {
@@ -10,6 +15,22 @@ const ManageUsers = () => {
     <div className="my-container">
       <div className="manage-users">
         <div className="userinfo">
+          <div className="top-sec">
+            <h3>Users</h3>
+            <div className="filters">
+            <button className="quic-actions">
+              {" "}
+              Quick Actions <MdArrowDropDown />{" "}
+            </button>
+            <button className="quic-actions">
+              {" "}
+              <span>filter</span>{" "}
+              <img src={sortbarsdrop} alt="dropdown" className="sortbarsdrop" />{" "}
+            </button>
+            </div>
+            
+            <img src={pagination} alt="" />
+          </div>
           <div className="nav-column">
             <input type="checkbox" />
             <p>Name</p>
