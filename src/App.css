@@ -1,7 +1,7 @@
 :root {
   --primary-color: #fdac15;
   --dark-theme: #323232;
-  --background-color: #FFFEFD;
+  --background-color: #fffefd;
 }
 
 * {
@@ -107,7 +107,6 @@
   color: #fdac15;
 }
 
-
 .users-new {
   display: flex;
   justify-content: space-between;
@@ -120,7 +119,7 @@
   align-items: center;
   gap: 5px;
   border: none;
-  background-color: #FFFEFD;
+  background-color: #fffefd;
 }
 
 .view:hover {
@@ -161,7 +160,7 @@
 }
 
 .usericon {
-  width: 60%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -184,4 +183,18 @@
   line-height: 20px;
   color: var(--dark-theme);
   width: 10rem;
+}
+
+.user- {
+  display: flex;
+  gap: 1rem;
+}
+
+.user- > div {
+  width: 10rem;
+}
+
+.email--,
+.user- > .email {
+  min-width: 16rem;  
 }
