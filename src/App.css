@@ -1,5 +1,7 @@
 :root {
   --primary-color: #fdac15;
+  --dark-theme: #323232;
+  --background-color: #FFFEFD;
 }
 
 * {
@@ -65,6 +67,14 @@
   gap: 1rem;
 }
 
+.graph-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: auto;
+  align-items: center;
+}
+
 .img-graph {
   width: 30rem;
   height: 15rem;
@@ -72,4 +82,106 @@
 
 .numbers-container p {
   margin-bottom: 1.4rem;
+}
+
+.legend {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.research {
+  display: flex;
+  justify-content: space-between;
+}
+
+.span- {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: #fdac15;
+  color: #fdac15;
+}
+
+
+.users-new {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  background-color: #FFFEFD;
+}
+
+.view:hover {
+  cursor: pointer;
+}
+
+.new-user-info {
+  margin-bottom: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.forward-icon {
+  font-size: 1rem;
+}
+
+.manage-users-d {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 18px;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+/* ---manage users--- */
+
+.my-container {
+  margin-left: 10%;
+}
+
+.newuser {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.usericon {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-user-section {
+  width: 40%;
+}
+
+.nav-column {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.nav-column p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 20px;
+  color: var(--dark-theme);
+  width: 10rem;
 }
