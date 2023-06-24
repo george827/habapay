@@ -1,6 +1,8 @@
 import { IoIosArrowForward } from 'react-icons/io'
 import { BiSolidPhone } from 'react-icons/bi'
 import { ImPhoneHangUp } from 'react-icons/im'
+import { AiFillDollarCircle } from 'react-icons/ai'
+// import { FaSackDollar } from 'react-icons/fa'
 import "./manageusers2.css"
 const ManageUsers2 = () => {
 
@@ -63,7 +65,7 @@ const ManageUsers2 = () => {
                         </div>
                     </div>
                     <div className="detail-container">
-                        <p className="details-icon"> < BiSolidPhone /> </p>
+                        <p className="details-icon"> <BiSolidPhone /> </p>
                         <div className="data">
                             <p>Primary Number:</p>
                             <p>+254707022356</p>
@@ -79,7 +81,7 @@ const ManageUsers2 = () => {
                         </div>
                     </div>
                     <div className="detail-container">
-                        <p className="details-icon">icon</p>
+                        <p className="details-icon"> < AiFillDollarCircle /> </p>
                         <div className="data">
                             <p>Account Balance</p>
                             <p>Ksh. 2334.0</p>
