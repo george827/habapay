@@ -2,7 +2,8 @@ import { IoIosArrowForward } from 'react-icons/io'
 import { BiSolidPhone } from 'react-icons/bi'
 import { ImPhoneHangUp } from 'react-icons/im'
 import { AiFillDollarCircle } from 'react-icons/ai'
-// import { FaSackDollar } from 'react-icons/fa'
+import { BsPersonFillX, BsFillTrash3Fill } from 'react-icons/bs'
+import EditPersonIcon from '../../assets/Vector.png'
 import "./manageusers2.css"
 const ManageUsers2 = () => {
 
@@ -75,7 +76,7 @@ const ManageUsers2 = () => {
                     <div className="detail-container">
                         <p className="details-icon">< ImPhoneHangUp /></p>
                         <div className="data">
-                            <p>Secondary Number</p>
+                            <p>Secondary Number:</p>
                             <p>n/a</p>
 
                         </div>
@@ -83,16 +84,16 @@ const ManageUsers2 = () => {
                     <div className="detail-container">
                         <p className="details-icon"> < AiFillDollarCircle /> </p>
                         <div className="data">
-                            <p>Account Balance</p>
+                            <p>Account Balance:</p>
                             <p>Ksh. 2334.0</p>
 
                         </div>
                     </div>
                 </div>
                 <div className="edit">
-                    <button>icon Edit Profile</button>
-                    <button>icon Suspend</button>
-                    <button>icon delete</button>
+                    <button> <img src={EditPersonIcon} className="edit-icons" alt="BsPersonFillX" /> <p>Edit Profile</p> </button>
+                    <button><BsPersonFillX className="edit-icons"/>  <p>Suspend</p></button>
+                    <button><BsFillTrash3Fill className="edit-icons" />  <p>Delete</p></button>
                 </div>
             </div>
         </div>
