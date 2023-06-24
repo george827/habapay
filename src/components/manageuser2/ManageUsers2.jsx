@@ -46,10 +46,10 @@ const ManageUsers2 = () => {
                                 <p> <span>John Doe</span> {item.transaction}</p>
                                 <p className="date-">{item.date}</p>
                             </div>
-                            <div className="review">
+                            <button type="button" className="review">
                                 <p>Review</p>
                                 <IoIosArrowForward className="forward-icon" />
-                            </div>
+                            </button>
                         </div>
                     )
                 })}

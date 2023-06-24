@@ -44,6 +44,12 @@
     justify-content: center;
     gap: 10px;
     color: #898989;
+    border: none;
+    background: none;
+}
+
+.review:hover {
+    cursor: pointer;
 }
 
 .detail-section {
