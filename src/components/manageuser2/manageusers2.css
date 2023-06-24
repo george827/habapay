@@ -8,7 +8,7 @@
     width: 100%;
     height: 100vh;
     display: flex;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .jonh-doe-container {
@@ -44,5 +44,42 @@
 }
 
 .detail-section {
-    
+   display: flex;
+    flex-direction: column;
+    gap: 3rem; 
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.detail-container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.edit {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    gap: 10px;
+    color: #898989;
+}
+
+.details-icon {
+    color: #323232;
+    font-size: 20px;
+
+}
+
+.edit > button {
+    display: flex;
+    border: none;
+    background: none;
+    text-align: start;
+    align-items: flex-start;
 }

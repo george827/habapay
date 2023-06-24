@@ -1,4 +1,6 @@
 import { IoIosArrowForward } from 'react-icons/io'
+import { BiSolidPhone } from 'react-icons/bi'
+import { ImPhoneHangUp } from 'react-icons/im'
 import "./manageusers2.css"
 const ManageUsers2 = () => {
 
@@ -53,10 +55,34 @@ const ManageUsers2 = () => {
             <div className="detail-section">
                 <div className="detail">
                     <div className="detail-container">
-                        <p>icon</p>
+                        <p className="details-icon">@</p>
                         <div className="data">
-                            <p>email</p>
+                            <p>Email:</p>
                             <p>johndoe@gmail.com</p>
+
+                        </div>
+                    </div>
+                    <div className="detail-container">
+                        <p className="details-icon"> < BiSolidPhone /> </p>
+                        <div className="data">
+                            <p>Primary Number:</p>
+                            <p>+254707022356</p>
+
+                        </div>
+                    </div>
+                    <div className="detail-container">
+                        <p className="details-icon">< ImPhoneHangUp /></p>
+                        <div className="data">
+                            <p>Secondary Number</p>
+                            <p>n/a</p>
+
+                        </div>
+                    </div>
+                    <div className="detail-container">
+                        <p className="details-icon">icon</p>
+                        <div className="data">
+                            <p>Account Balance</p>
+                            <p>Ksh. 2334.0</p>
 
                         </div>
                     </div>
