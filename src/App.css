@@ -99,13 +99,16 @@
   justify-content: space-between;
 }
 
-.span- {
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
-  background-color: #fdac15;
+/* .span- {
   color: #fdac15;
-}
+} */
+
+
+/* input[type='radio'] {
+  accent-color: #232323;
+}  */
+
+
 
 .users-new {
   display: flex;

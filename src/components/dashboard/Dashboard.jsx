@@ -32,12 +32,14 @@ const ManageUsers = () => {
               <p>LEGEND</p>
               <div className="research">
                 <p>
-                  {" "}
-                  <span className="span- circle-p"></span> New Users
+                  <span className="span- circle-p">
+                  <input type="radio" checked="true" />                    
+                    </span> New Users
                 </p>
                 <p>
-                  {" "}
-                  <span className="span- circle-d"></span> National Research
+                  <span className="span- circle-d">
+                  <input type="radio" checked="true" />                    
+                    </span> National Research
                 </p>
               </div>
             </div>
