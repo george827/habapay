@@ -126,7 +126,7 @@
     justify-content: space-around;
     align-items: center;
     gap: 2rem;
-    width: 90%;
+    width: 60%;
     margin: 2rem auto;
     margin-bottom: 2rem;
 }
@@ -158,4 +158,75 @@
 .delete-btn {
     background-color: var(--primary-color);
     color: #fff;
+}
+
+
+/* frames 2 */
+
+.create-user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.header>h3 {
+    font-family: IBM Plex Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.header>p {
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.fill-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form- {
+    display: flex;
+    gap: 2rem;
+}
+
+.form-group > label {
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+
+/* ---confirmed--suspend */
+
+.container-confirm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 5%;
 }
