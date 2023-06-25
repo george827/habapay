@@ -15,7 +15,7 @@ const EditAccount = () => {
                 <div className="fill-form">
                     <div className="form-">
                         <div className="form1">
-                            <div className="form-group">
+                            <div className="form-group-">
                                 <label htmlFor="Name">Name</label>
                                 <input
                                     type="text"
@@ -25,7 +25,7 @@ const EditAccount = () => {
                                     placeholder="Enter your Name"
                                 />
                             </div>
-                            <div className="form-group">
+                            <div className="form-group-">
                                 <label htmlFor="Private Number">Private Number</label>
                                 <input
                                     type="text"
@@ -36,7 +36,7 @@ const EditAccount = () => {
 
                                 />
                             </div>
-                            <div className="form-group">
+                            <div className="form-group-">
                                 <label htmlFor="Email">Email</label>
                                 <input
                                     type="text"
@@ -46,7 +46,7 @@ const EditAccount = () => {
                                     placeholder="Enter your Email"
                                 />
                             </div>
-                            <div className="form-group">
+                            <div className="form-group-">
                                 <label htmlFor="Password">Password</label>
                                 <input
                                     type="password"
@@ -58,7 +58,7 @@ const EditAccount = () => {
                             </div>
                         </div>
                         <div className="form2">
-                            <div className="form-group">
+                            <div className="form-group-">
                                 <label htmlFor="Secondary Number">Secondary Number</label>
                                 <input
                                     type="text"
@@ -69,7 +69,7 @@ const EditAccount = () => {
 
                                 />
                             </div>
-                            <div className="form-group">
+                            <div className="form-group-">
                                 <label htmlFor="Business">Business</label>
                                 <input
                                     type="text"
@@ -79,7 +79,7 @@ const EditAccount = () => {
                                     placeholder="Enter your Business"
                                 />
                             </div>
-                            <div className="form-group">
+                            <div className="form-group-">
                                 <label htmlFor="Location">Location</label>
                                 <input
                                     type="text"
@@ -89,7 +89,7 @@ const EditAccount = () => {
                                     placeholder="Enter your Location"
                                 />
                             </div>
-                            <div className="form-group">
+                            <div className="form-group-">
                                 <label htmlFor="Login PIN">Login PIN</label>
                                 <input
                                     type="number"

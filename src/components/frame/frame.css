@@ -167,6 +167,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 80%;
     margin: 0 auto;
     margin-top: 5%;
@@ -197,11 +198,12 @@
     text-align: left;
 }
 
-.fill-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.form-group- > input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ded9d9;
+    border-radius: 5px;
+    padding: 0.5rem;
 }
 
 .form- {
@@ -209,13 +211,14 @@
     gap: 2rem;
 }
 
-.form-group > label {
+.form-group- > label {
     font-family: IBM Plex Sans;
     font-size: 18px;
     font-weight: 500;
     line-height: 23px;
     letter-spacing: 0em;
-    text-align: left;    
+    text-align: left;
+    padding: 0.5rem;  
 }
 
 /* ---confirmed--suspend */
@@ -238,32 +241,40 @@
         width: 95%;
         margin: 0 auto;
         margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .header>h3 {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 500;
         line-height: 20px;
     }
 
-    .form-group > input {
+    .form-group- > input {
         width: 100%;
+        height: 40px;
         border: 1px solid #ded9d9;
-        padding: 0.2rem;
+        border-radius: 5px;
+        padding: 0.5rem;
     }
+
+    .form-group- label {
+        font-size: 14px;
+    }
+
     .form- {
         width: 100%;
         font-size: 14px;
         display: flex;
-        gap: 0.2rem;
+        justify-content: space-between;
     }
 
-    .form-group {
+    .header {
         width: 100%;
+        text-align: center;
     }
 
-    .form1,
-    .form2 {
-        width: 50%;
-    }
 }
