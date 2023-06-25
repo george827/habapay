@@ -32,7 +32,7 @@ const ManageUsers = () => {
                 </button>
               </div>
 
-              <img src={pagination} alt="" />
+              <img src={pagination} className="pagination" alt="pagination" />
             </div>
             <div className="nav-column">
               <input type="checkbox" />

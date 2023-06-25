@@ -337,4 +337,17 @@
   width: 90%;
   margin: 0 auto;
 }
+
+.top-sec h3 {
+  min-width: 10rem;
+}
+
+.top-sec .filters {
+  min-width: 20rem;
+}
+
+.pagination {
+  width: 100%;
+}
+
 }
