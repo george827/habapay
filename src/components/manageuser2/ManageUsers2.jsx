@@ -5,6 +5,8 @@ import { AiFillDollarCircle } from 'react-icons/ai'
 import { BsPersonFillX, BsFillTrash3Fill } from 'react-icons/bs'
 import EditPersonIcon from '../../assets/Vector.png'
 import "./manageusers2.css"
+
+import Frame198 from '../frame/frame198'
 const ManageUsers2 = () => {
 
     const data =[
@@ -37,6 +39,7 @@ const ManageUsers2 = () => {
     ]
 
     return (
+        <>
         <div className="manage2">
             <div className="manage-jon">
                 {data.map((item) => {
@@ -97,6 +100,8 @@ const ManageUsers2 = () => {
                 </div>
             </div>
         </div>
+        <Frame198 />
+        </>
     )
 }
 
