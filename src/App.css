@@ -15,14 +15,12 @@
   justify-content: center;
   margin-top: 10%;
   gap: 4rem;
-  height: 100vh;
   width: 100vw;
 }
 
 .user,
 .details-container {
   display: flex;
-  /* flex-direction: column; */
   gap: 3rem;
   margin-top: 0.5rem;
   justify-content: center;
@@ -76,12 +74,8 @@
 }
 
 .img-graph {
-  width: 30rem;
-  height: 15rem;
-}
-
-.numbers-container p {
-  margin-bottom: 1.4rem;
+  width: 100%;
+  height: 100%;
 }
 
 .legend {
@@ -98,16 +92,6 @@
   display: flex;
   justify-content: space-between;
 }
-
-/* .span- {
-  color: #fdac15;
-} */
-
-
-/* input[type='radio'] {
-  accent-color: #232323;
-}  */
-
 
 
 .users-new {
@@ -153,7 +137,8 @@
 /* ---manage users--- */
 
 .my-container {
-  margin-left: 10%;
+  margin-left: auto;
+  width: 90%;
   margin-top: 10%;
 }
 
@@ -162,11 +147,11 @@
   padding: 0.8rem;
   border: 0.5px solid #ded9d9;
   border-radius: 5px;
+  width: 100%;
 }
 
 .newuser {
   display: flex;
-  /* justify-content: space-between; */
   gap: 2rem;
   align-items: center;
   margin: 2rem 0;
@@ -211,13 +196,13 @@
   gap: 1rem;
 }
 
-.user- > div {
+.user->div {
   width: 10rem;
 }
 
 .email--,
-.user- > .email {
-  min-width: 16rem;  
+.user->.email {
+  min-width: 16rem;
 }
 
 .quic-actions {
@@ -249,4 +234,107 @@
 .link-style {
   text-decoration: none;
   color: #323232;
+}
+
+/* responsiveness */
+
+@media screen and (max-width: 768px) {
+  .dashboard-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+
+  .gra {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .img-graph {
+    width: 100%;
+    height: 100%;
+  }
+
+  .legend p {
+    font-size: 14px;
+  }
+
+  .user-section {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .user,
+  .details-container {
+    gap: 1rem;
+  }
+
+  .my-container {
+    width: 100%;
+  }
+
+  .new-users { 
+    max-width: 25rem;
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  .userinfo {
+    width: 100%;
+    overflow-x: scroll;
+  }
+
+  .newuser {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+
+
+.nav-column p {
+  font-size: 14px;
+  min-width: 7rem;
+  width: 7rem;
+  gap: 0.2rem;
+  overflow-x: hidden;
+}
+
+.user- p {
+  font-size: 14px;
+  min-width: 7rem;
+  width: 7rem;
+  gap: 0.2rem;
+  overflow-x: hidden;
+}
+
+.user->.email {
+  min-width: 7rem;
+  width: 7rem;
+  overflow-x: hidden;
+}
+
+.manage {
+  min-width: 7rem;
+  width: 7rem;
+}
+
+.top-sec > h3 {
+  font-size: 16px;
+}
+
+.filters > button {
+  font-size: 14px;
+  padding: 0.2rem;
+}
+
+.newuser {
+  display: flex;
+  flex-direction: column;
+}
+
+.new-user-section {
+  width: 90%;
+  margin: 0 auto;
+}
 }

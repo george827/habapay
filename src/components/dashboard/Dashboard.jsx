@@ -10,22 +10,8 @@ const ManageUsers = () => {
 
   return (
     <>
-      {/* <div className="manage">
-    <Link to="/manageusers" className="manage-users-d">
-            <p>Manage users</p>
-            <IoIosArrowForward className="forward-icon" />
-          </Link>
-    </div> */}
       <div className="dashboard-container">
         <div className="gra">
-          <div className="numbers-container">
-            <p>500k</p>
-            <p>400k</p>
-            <p>300k</p>
-            <p>200k</p>
-            <p>100k</p>
-            <p>0</p>
-          </div>
           <div className="graph-container">
             <img src={Graph} className="img-graph" alt="graph" />
             <div className="legend">
