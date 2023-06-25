@@ -1,4 +1,9 @@
-const Frame199 = () => {
+import { useNavigate } from 'react-router-dom';
+const CreateUser = () => {
+    const navigate = useNavigate();
+    const handleCancel = (e) => {
+        navigate(-1);
+    }
     return (
         <>
             <div className="create-user">
@@ -98,7 +103,7 @@ const Frame199 = () => {
                     </div>
                 </div>
                 <div className="delete-cancel">
-                    <button className="cancel-btn">Cancel</button>
+                    <button className="cancel-btn" onClick={handleCancel}>Cancel</button>
                     <button className="delete-btn">Verify</button>
                 </div>
             </div>
@@ -106,4 +111,4 @@ const Frame199 = () => {
     );
 }
 
-export default Frame199;
+export default CreateUser;

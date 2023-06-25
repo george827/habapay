@@ -1,4 +1,9 @@
+import { useNavigate } from "react-router-dom";
 const EditAccount = () => {
+    const navigate = useNavigate();
+    const handleCancel = (e) => {
+        navigate(-1);
+    }
     return (
         <>
             <div className="create-user">
@@ -98,7 +103,7 @@ const EditAccount = () => {
                     </div>
                 </div>
                 <div className="delete-cancel">
-                    <button className="cancel-btn">Cancel</button>
+                    <button className="cancel-btn" onClick={handleCancel} >Cancel</button>
                     <button className="delete-btn">Save</button>
                 </div>
             </div>

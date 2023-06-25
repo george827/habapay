@@ -1,7 +1,8 @@
 import { IoIosArrowForward } from 'react-icons/io'
 import PersonIcon from "../../assets/Vector.png";
 import Data from "../Data";
-const NewUser = () => {
+import { Link } from "react-router-dom";
+const NewUser = (props) => {
     const data = Data();
   return (
     <div className="new-users">
@@ -21,7 +22,10 @@ const NewUser = () => {
               <p>{item.email}</p>
             </div>
             <div className="info-icon">
-              <img src={PersonIcon} alt="" />
+            <Link to={props.newlink} className="">
+            <img src={PersonIcon} alt="" />
+          </Link>
+              
             </div>
           </div>
         );

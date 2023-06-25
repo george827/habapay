@@ -1,21 +1,21 @@
 import Graph from "../../assets/frame154.png";
 import "../../App.css";
 import NewUser from "./NewUser";
-import { Link } from "react-router-dom";
-import { IoIosArrowForward } from 'react-icons/io'
+// import { Link } from "react-router-dom";
+// import { IoIosArrowForward } from 'react-icons/io'
 
 import Data from "../Data";
 const ManageUsers = () => {
   const data = Data();
-  
+
   return (
     <>
-    <div className="manage">
+      {/* <div className="manage">
     <Link to="/manageusers" className="manage-users-d">
             <p>Manage users</p>
             <IoIosArrowForward className="forward-icon" />
           </Link>
-    </div>
+    </div> */}
       <div className="dashboard-container">
         <div className="gra">
           <div className="numbers-container">
@@ -65,7 +65,7 @@ const ManageUsers = () => {
               );
             })}
           </div>
-          < NewUser />
+          < NewUser newlink="/manageusers" />
         </div>
       </div>
     </>

@@ -1,9 +1,12 @@
-// import EditPersonIcon from '../../assets/Vector.png';
-// import { BsPersonFillX, BsFillTrash3Fill, BsCheckSquareFill } from 'react-icons/bs';
 import "./frame.css";
 import Render from "./render";
+import { useNavigate } from "react-router-dom";
 
-const Frame198 = () => {
+const DeleteUser = () => {
+    const navigate = useNavigate();
+    const handleCancel = (e) => {
+        navigate(-1);
+    }
     return (
         <>
             <div className="delete">
@@ -13,7 +16,7 @@ const Frame198 = () => {
                 </div>
 
                 <div className="delete-cancel">
-                    <button className="cancel-btn">Cancel</button>
+                    <button className="cancel-btn" onClick={handleCancel} >Cancel</button>
                     <button className="delete-btn">Delete</button>
                 </div>
                 
@@ -22,4 +25,4 @@ const Frame198 = () => {
     );
 }
 
-export default Frame198;
+export default DeleteUser;

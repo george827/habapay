@@ -1,5 +1,10 @@
 import Render from "./render";
-const ConfirmSpend = () => {
+import { useNavigate } from "react-router-dom";
+const SuspendUser = () => {
+    const navigate = useNavigate();
+    const handleCancel = (e) => {
+        navigate(-1);
+    }
     return (
         <>
             <div className="container-confirm">
@@ -8,7 +13,7 @@ const ConfirmSpend = () => {
                 </div>
                 < Render />
                 <div className="delete-cancel">
-                    <button className="cancel-btn">Cancel</button>
+                    <button className="cancel-btn" onClick={handleCancel} >Cancel</button>
                     <button className="delete-btn">Suspend</button>
                 </div>
             </div>
@@ -16,4 +21,4 @@ const ConfirmSpend = () => {
     );
 };
 
-export default ConfirmSpend;
+export default SuspendUser;

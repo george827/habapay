@@ -5,11 +5,10 @@ import { AiFillDollarCircle } from 'react-icons/ai'
 import { BsPersonFillX, BsFillTrash3Fill } from 'react-icons/bs'
 import EditPersonIcon from '../../assets/Vector.png'
 import "./manageusers2.css"
-import Frame199 from '../frame/frame199'
-import FrameConfirmed from '../frame/FrameConfirmed'
-import EditAccount from '../frame/EditAccount'
+import { Link } from "react-router-dom";
+import Frame199 from '../frame/CreateUser';
 
-import Frame198 from '../frame/frame198'
+
 const ManageUsers2 = () => {
 
     const data =[
@@ -43,7 +42,6 @@ const ManageUsers2 = () => {
 
     return (
         <>
-        <hr className="hr" />
         <div className="manage2">
             <div className="manage-jon">
                 {data.map((item) => {
@@ -98,20 +96,17 @@ const ManageUsers2 = () => {
                     </div>
                 </div>
                 <div className="edit">
-                    <button> <img src={EditPersonIcon} className="edit-icons" alt="BsPersonFillX" /> <p>Edit Profile</p> </button>
-                    <button><BsPersonFillX className="edit-icons"/>  <p>Suspend</p></button>
-                    <button><BsFillTrash3Fill className="edit-icons" />  <p>Delete</p></button>
+                    <Link to="/edit" className="link-style"> <img src={EditPersonIcon} className="edit-icons" alt="BsPersonFillX" /> <p>Edit Profile</p> </Link>
+                    <Link to="/suspend" className="link-style"><BsPersonFillX className="edit-icons"/>  <p>Suspend</p></Link>
+                    <Link to="/delete" className="link-style"><BsFillTrash3Fill className="edit-icons" />  <p>Delete</p></Link>
                 </div>
             </div>
         </div>
-        <hr className="hr" />
-        <Frame198 />
+        <br/>
+        <br/>
+        <br/>
         <hr className="hr" />
         <Frame199 />
-        <hr className="hr" />
-        <FrameConfirmed />
-        <hr className="hr" />
-        <EditAccount />
 
         </>
     )

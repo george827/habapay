@@ -3,10 +3,9 @@ import NewUser from "./dashboard/NewUser";
 import PersonIcon from "../assets/undraw.png";
 import PersonEdit from "../assets/Vector.png";
 import pagination from "../assets/pagination.png";
+import { Link } from "react-router-dom";
 
 import sortbarsdrop from "../assets/sortbarsdrop.png";
-
-import ManageUsers2 from "./manageuser2/ManageUsers2";
 
 import { MdArrowDropDown } from "react-icons/md";
 import "../App.css";
@@ -65,8 +64,11 @@ const ManageUsers = () => {
                     <p>{item.status}</p>
                   </div>
                   <div className="manage">
+                    <Link to="/ManageUsers2" className="link-style">
                     <img src={PersonEdit} alt="user" />
                     <span>...</span>
+                    </Link>
+                    
                   </div>
                 </div>
               );
@@ -77,13 +79,11 @@ const ManageUsers = () => {
               <img src={PersonIcon} alt="user" />
             </div>
             <div className="new-user-section">
-              <NewUser />
+              <NewUser newlink="/ManageUsers2"/>
             </div>
           </div>
         </div>
       </div>
-
-      <ManageUsers2 />
     </>
   );
 };

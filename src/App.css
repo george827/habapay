@@ -241,3 +241,9 @@
   display: flex;
   gap: 1rem;
 }
+
+/* -- link--- */
+.link-style {
+  text-decoration: none;
+  color: #323232;
+}

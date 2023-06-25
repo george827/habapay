@@ -6,10 +6,10 @@
 
 .manage2 {
     width: 90%;
-    height: 50vh;
+    height: 100vh;
     display: flex;
+    align-items: center;
     gap: 4rem;
-    /* margin: 0 auto; */
     margin-left: 10%;
 
 }
@@ -85,7 +85,7 @@
 
 }
 
-.edit > button {
+.edit > .link-style {
     display: flex;
     border: none;
     gap: 15px;
@@ -95,7 +95,7 @@
     justify-content: space-between;
 }
 
-.edit > button:hover {
+.edit > .link-style:hover {
     cursor: pointer;
 }
 
@@ -108,7 +108,7 @@
     text-align: left;      
 }
 
-.edit > button > p {
+.edit > .link-style > p {
     display: flex;
     text-align: start;
     align-items: flex-start;
