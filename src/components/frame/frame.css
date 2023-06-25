@@ -230,3 +230,40 @@
     width: 80%;
     margin-top: 5%;
 }
+
+/* responsiveness */
+
+@media screen and (max-width: 768px) {
+    .create-user {
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+
+    .header>h3 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+
+    .form-group > input {
+        width: 100%;
+        border: 1px solid #ded9d9;
+        padding: 0.2rem;
+    }
+    .form- {
+        width: 100%;
+        font-size: 14px;
+        display: flex;
+        gap: 0.2rem;
+    }
+
+    .form-group {
+        width: 100%;
+    }
+
+    .form1,
+    .form2 {
+        width: 50%;
+    }
+}

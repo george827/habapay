@@ -6,7 +6,7 @@ import { BsPersonFillX, BsFillTrash3Fill } from 'react-icons/bs'
 import EditPersonIcon from '../../assets/Vector.png'
 import "./manageusers2.css"
 import { Link } from "react-router-dom";
-import Frame199 from '../frame/CreateUser';
+// import Frame199 from '../frame/CreateUser';
 
 
 const ManageUsers2 = () => {
@@ -105,8 +105,8 @@ const ManageUsers2 = () => {
         <br/>
         <br/>
         <br/>
-        <hr className="hr" />
-        <Frame199 />
+        {/* <hr className="hr" />
+        <Frame199 /> */}
 
         </>
     )

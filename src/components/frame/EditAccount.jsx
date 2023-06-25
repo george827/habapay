@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import "./frame.css"
 const EditAccount = () => {
     const navigate = useNavigate();
     const handleCancel = (e) => {
