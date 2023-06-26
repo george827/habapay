@@ -12,7 +12,7 @@ const DeleteUser = () => {
             <div className="delete">
                 <Render />
                 <div className="small-continer">
-                <Render className="render-second" />
+                <Render  />
                 </div>
 
                 <div className="delete-cancel">
