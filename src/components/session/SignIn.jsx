@@ -25,7 +25,7 @@ const Signin = () => {
 
   return (
     <>
-      <div className="login-container">
+      <div className="login-container update-login">
         <div className="haba">
           <h3>HabaPay</h3>
         </div>
