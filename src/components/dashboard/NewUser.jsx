@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const NewUser = (props) => {
     const data = Data();
   return (
-    <div className="new-users">
+    <div className="new-users add-user">
       <div className="users-new">
         <h3>New Users</h3>
         <button type="button" className="view">
