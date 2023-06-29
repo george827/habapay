@@ -17,7 +17,7 @@ const NewUser = (props) => {
       {data.map((item) => {
         return (
           <div className="new-user-info">
-            <div className="info">
+            <div className="info remove-info">
               <h4>{item.name}</h4>
               <p>{item.email}</p>
             </div>
